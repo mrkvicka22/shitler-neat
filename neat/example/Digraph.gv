@@ -1,0 +1,10 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	input [fillcolor=lightgray shape=box style=filled]
+	gate [fillcolor=lightgray shape=box style=filled]
+	output [fillcolor=lightblue style=filled]
+	160 [fillcolor=white style=filled]
+	160 -> output [color=red penwidth=2.516846063852497 style=solid]
+	input -> 160 [color=green penwidth=0.2839910651465428 style=solid]
+	output -> 160 [color=green penwidth=0.7712526884694222 style=solid]
+}
